@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fireloom">
+    package="com.example.fireloom" xmlns:tools="http://schemas.android.com/tools">
    <application
+           tools:replace="andriod:label"
         android:label="fireloom"
         android:icon="@mipmap/ic_launcher">
         <activity
